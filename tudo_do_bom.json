@@ -36,15 +36,18 @@
   ],
   "services": [
     {
-      "nom": "Événements Culturels",
+      "img" : "/asset/pexels-hannah-barata-776560167-27865631.jpg",
+      "titre": "Événements Culturels",
       "desc": "Participez à nos événements culturels pour vivre l'ambiance du Brésil. Musique live, danse, et dégustation de plats authentiques pour une expérience immersive."
     },
     {
-      "nom": "Cours de Cuisine",
+      "img" : "/asset/pexels-adriano-bragi-1288014591-24289077.jpg",
+      "titre": "Cours de Cuisine",
       "desc": "Apprenez à cuisiner les plats brésiliens avec nos cours de cuisine. Nos chefs vous guideront à travers les techniques et les saveurs de la cuisine brésilienne."
     },
     {
-      "nom": "Privatisation d'Espace",
+      "img" : "/asset/pexels-richard-l-2150581203-33846976.jpg",
+      "titre": "Privatisation d'Espace",
       "desc": "Privatisez un espace pour vos événements spéciaux. Anniversaires, réunions d'affaires ou célébrations, nous créons une atmosphère brésilienne pour rendre votre occasion mémorable."
     }
   ],

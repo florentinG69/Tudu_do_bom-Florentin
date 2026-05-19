@@ -41,12 +41,16 @@ p{
     font-weight: 600;
 }
 
+.i-size{
+    size: 40px;
+}
+
 
 /* ------------------------------
              TYPO
 ---------------------------------*/
 
-.rammetto-one-regular {
+.rammetto-one{
   font-family: "Rammetto One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -86,10 +90,9 @@ p{
 .blanc{
     color: white;
 }
-section{
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
+
+
+
 
 
 /* ------------------------------
@@ -277,6 +280,12 @@ section{
     background-repeat: no-repeat;
 }
 
+.background-noir{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .carte-vert{
     background-color: #125D3F;
     background-size: cover;
@@ -293,17 +302,25 @@ section{
     border-radius: 20px;
 }
 
+.carte-blanche{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .user-bleu{
     background-color: #0886fd;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 100px;
+    padding: 2px;
 }
 
 
 .background-hero{
-    background-image: url(asset/pexels-monstro-18303026.jpg);
+    background-image: url(asset/pexels-doouglasma-15790862.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -322,15 +339,23 @@ section{
 }
 
 .bouton-vert:hover{
-    background-color: #FAB943;
-    color: #125D3F;
+    background-color: #0886fd;
+    color: white;
 }
 
 .btn-header{
     color: #125D3F;
 }
 .btn-header:hover{
-    color: #FAB943;
+    color: #0886fd;
+}
+
+.btn-resaux{
+    color: #a1fa41;
+}
+
+.btn-resaux:hover{
+    color: #fffd83;
 }
 
 
@@ -353,6 +378,9 @@ section{
 
 .w-40{
     width: 40%;
+}
+.w-35{
+    width: 35%;
 }
 
 .w-30{
@@ -384,8 +412,24 @@ section{
 }
 
 /* ------------------------------
-            LARGEURS
+            DIVERS
  ---------------------------------*/
  .border-img{
     border-radius: 20px;
  }
+
+.icon-size-100{
+    font-size: 100px;
+}
+
+
+
+
+
+.icon-size-50{
+    font-size: 50px;
+}
+
+
+
+
