@@ -37,7 +37,8 @@ h3{
 
 p{
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 
@@ -51,6 +52,14 @@ p{
   font-style: normal;
 }
 
+/* ------------------------------
+            TEXTE 
+---------------------------------*/
+
+.text-center{
+    text-align: center; 
+}
+
 
 
 
@@ -59,12 +68,29 @@ p{
 ---------------------------------*/
 
 .pomme{
-    color: #DEF5C6;
+    color: #a1fa41;
+}
+
+.bleu{
+    color: #0886fd;
 }
 
 .vert{
-    color: #125D3F;
+   color:#125D3F
 }
+
+.jaune{
+    color: #fffd83;
+}
+
+.blanc{
+    color: white;
+}
+section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 
 /* ------------------------------
             FLEXBOX
@@ -97,6 +123,10 @@ p{
 
 .justify-start{
     justify-content: flex-start;
+}
+
+.content-center{
+    align-content: center;
 }
 
 .row{
@@ -223,8 +253,60 @@ p{
  ---------------------------------*/
 
 .background-pomme{
-    background-color: #DEF5C6;
+    background-color: #a1fa41;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-vert{
+    background-color: #125D3F;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.background-jaune{
+    background-color: #fffd83;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-bleu{
+    background-color: #0886fd;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carte-vert{
+    background-color: #125D3F;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carte-vert-foncé{
+    background-color: #08291c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.user-bleu{
+    background-color: #0886fd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.background-hero{
+    background-image: url(asset/pexels-monstro-18303026.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -236,7 +318,19 @@ p{
     background-color: #125D3F;
     border-radius: 200px;
     padding: 10px 20px;
-    color: #DEF5C6;
+    color: #01c047;
+}
+
+.bouton-vert:hover{
+    background-color: #FAB943;
+    color: #125D3F;
+}
+
+.btn-header{
+    color: #125D3F;
+}
+.btn-header:hover{
+    color: #FAB943;
 }
 
 
@@ -244,8 +338,54 @@ p{
             LARGEURS
  ---------------------------------*/
 
-
-
-.w-50{
-    width: 50px;
+.w-100{
+    width: 100%;
 }
+
+
+.w-50 {
+    width: 50%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-23{
+    width: 23%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-18{
+    width: 18%;
+}
+
+.w-15{
+    width: 15%;
+}
+
+.w-5{
+    width: 5%;
+}
+
+/* ------------------------------
+            LARGEURS
+ ---------------------------------*/
+ .border-img{
+    border-radius: 20px;
+ }
