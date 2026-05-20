@@ -1,11 +1,22 @@
 {
-  "nomCommercial": "Tudo de Bom - Restaurant Brésilien à Marseille",
+  "nomCommercial": "Tudo de Bom",
+  "sousNomCommercial" : "Restaurant Brésilien à Marseille",
   "texteAccroche": "Voyagez au cœur de la gastronomie brésilienne avec Tudo de Bom, votre restaurant à Marseille",
   "texteBouton": "Dégustez nos saveurs uniques",
-  "promessesClient": [
-    "Une cuisine brésilienne authentique et savoureuse",
-    "Ambiance chaleureuse pour une expérience culinaire conviviale",
-    "Ingrédients de qualité pour des plats exquis"
+  "promesses": [
+    {
+      "phrase": "Une cuisine brésilienne authentique et savoureuse",
+      "icone": "<i class='ph-fill ph-bowl-steam'></i>"
+    },
+    {
+      "phrase": "Ambiance chaleureuse pour une expérience culinaire conviviale",
+      "icone": "<i class='ph-fill ph-confetti'></i>"
+    },
+    {
+      "phrase": "Ingrédients de qualité pour des plats exquis",
+      "icone": "<i class='ph-fill ph-chef-hat'></i>"
+    }
+   
   ],
   "plats": [
     {
@@ -32,21 +43,26 @@
       "nom": "Caipirinha",
       "desc": "Rafraîchissez-vous avec notre caipirinha, un cocktail brésilien classique à base de cachaça, de sucre et de citron vert. L'accompagnement parfait pour vos plats.",
       "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/restaurant-bresilien/caipirinha.webp"
+    },
+    {
+      "nom": "Caipirinha",
+      "desc": "Rafraîchissez-vous avec notre caipirinha, un cocktail brésilien classique à base de cachaça, de sucre et de citron vert. L'accompagnement parfait pour vos plats.",
+      "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/restaurant-bresilien/caipirinha.webp"
     }
   ],
   "services": [
     {
-      "img" : "/asset/pexels-hannah-barata-776560167-27865631.jpg",
+      "image" : "/asset/pexels-hannah-barata-776560167-27865631.jpg",
       "titre": "Événements Culturels",
       "desc": "Participez à nos événements culturels pour vivre l'ambiance du Brésil. Musique live, danse, et dégustation de plats authentiques pour une expérience immersive."
     },
     {
-      "img" : "/asset/pexels-adriano-bragi-1288014591-24289077.jpg",
+      "image" : "/asset/pexels-adriano-bragi-1288014591-24289077.jpg",
       "titre": "Cours de Cuisine",
       "desc": "Apprenez à cuisiner les plats brésiliens avec nos cours de cuisine. Nos chefs vous guideront à travers les techniques et les saveurs de la cuisine brésilienne."
     },
     {
-      "img" : "/asset/pexels-richard-l-2150581203-33846976.jpg",
+      "image" : "/asset/pexels-richard-l-2150581203-33846976.jpg",
       "titre": "Privatisation d'Espace",
       "desc": "Privatisez un espace pour vos événements spéciaux. Anniversaires, réunions d'affaires ou célébrations, nous créons une atmosphère brésilienne pour rendre votre occasion mémorable."
     }

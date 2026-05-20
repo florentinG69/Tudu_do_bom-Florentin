@@ -19,18 +19,18 @@
     <!-- HEADER -->
 
     <header class=" flex  align-center space-between background-pomme ">
-        <div class="container-1000 flex  align-center space-between mt-16 mb-16">
+        <div class="container-1000 flex  align-center space-between mt-8 mb-8">
 
             <nav class="flex gap-16">
-                <a class="btn-header" href="">Nos Plats</a>
-                <a class="btn-header" href="">Témoignages</a>
-                <a class="btn-header" href="">Service</a>
+                <a class="btn-header" href="#NosRepas">Nos Repas</a>
+                <a class="btn-header" href="#Témoignages">Témoignages</a>
+                <a class="btn-header" href="#Services">Service</a>
             </nav>
             <img class="w-5" src="asset/logo-bresilien-1.png" alt="">
             <nav class="flex gap-16">
-                <a class="btn-header" href=""> Nos Promesses</a>
-                <a class="btn-header" href="">Nos Résaux</a>
-                <a class="btn-header" href="">Réservation</a>
+                <a class="btn-header" href="#NosPromesses"> Nos Promesses</a>
+                <a class="btn-header" href="#NosRésaux">Nos Résaux</a>
+                <a class="btn-header" href="#Réservation">Réservation</a>
             </nav>
         </div>
     </header>
@@ -40,22 +40,36 @@
 
     <!-- SECTION 1 -->
     <section class="background-hero pt-64 pb-64">
-        <div class="container-1000 flex align-center">
+
+
+        <div id="hiro-container" class="container-1000 flex align-center">
+
+            <!--  
             <div>
                 <h1 class="blanc">Tudo de Bom</h1>
                 <h2 class="blanc">Réstaurant brésilien à Marseille</h2>
                 <p class="jaune mb-32">Voyager au coeur de la restauration brésilien avec Tude de Bom, <br> votre
                     restaurant à Marseille</p>
             </div>
+            
             <a class="bouton-vert mb-16" href="">Dégustez nos saveurs unique</a>
+            -->
         </div>
+
     </section>
 
     <!-- SECTION 2 -->
     <section class="background-vert pt-64 pb-64">
 
-        <h2 class="pomme text-center mb-64">Nos Repas</h2>
+        <h2 id="NosRepas" class="pomme text-center mb-64">Nos Repas</h2>
+        <div id="repas-container" class="container-1000 flex space-between gap-16">
+
+
+        </div>
+
+        <!--  
         <div class="container-1000 flex align-center space-between gap-16">
+            
             <div class="carte-vert-foncé w-30">
                 <img class=" border-img w-100"
                     src="https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/restaurant-bresilien/feijoada.webp"
@@ -94,6 +108,7 @@
             </div>
 
         </div>
+        -->
 
 
 
@@ -101,39 +116,45 @@
 
     <!-- SECTION 3 -->
     <section class="background-noir pt-64 pb-64">
-        <h2 class="text-center bleu">Services</h2>
-        <div class="container-1000 flex align-center space-between gap-16">
-            <div>
-                <img class="w-30 border-img" src="/asset/pexels-hannah-barata-776560167-27865631.jpg" alt="">
+
+        <h2 id="Services" class="text-center bleu">Services</h2>
+        <div id="service-container" class="container-1000 flex space-between gap-16 mt-16">
+
+            <!-- 
+
+            <div class="w-30">
+                <img class=" w-100 border-img" src="/asset/pexels-hannah-barata-776560167-27865631.jpg" alt="">
                 <div>
-                    <h3 class="bleu">Événements Culturels</h3>
-                    <p class="blanc w-30 ">Participez à nos événements culturels pour vivre l'ambiance du Brésil.
+                    <h3 class="blanc mt-16">Événements Culturels</h3>
+                    <p class="blanc ">Participez à nos événements culturels pour vivre l'ambiance du Brésil.
                         Musique live,
                         danse,
                         et dégustation de plats authentiques pour une expérience immersive.</p>
                 </div>
             </div>
-            <div>
-                <img class="w-30 border-img" src="/asset/pexels-adriano-bragi-1288014591-24289077.jpg" alt="">
+            <div class="w-30">
+                <img class=" w-100 border-img" src="/asset/pexels-adriano-bragi-1288014591-24289077.jpg" alt="">
                 <div>
-                    <h3 class="bleu">Événements Culturels</h3>
-                    <p class="blanc w-30 ">Participez à nos événements culturels pour vivre l'ambiance du Brésil.
+                    <h3 class="blanc mt-16">Événements Culturels</h3>
+                    <p class="blanc">Participez à nos événements culturels pour vivre l'ambiance du Brésil.
                         Musique live,
                         danse,
                         et dégustation de plats authentiques pour une expérience immersive.</p>
                 </div>
             </div>
-            <div>
-                <img class="w-30 border-img" src="/asset/pexels-richard-l-2150581203-33846976.jpg" alt="">
+            <div class="w-30" >
+                <img class="w-100 border-img" src="/asset/pexels-richard-l-2150581203-33846976.jpg" alt="">
                 <div>
-                    <h3 class="bleu">Événements Culturels</h3>
-                    <p class="blanc w-30 ">Participez à nos événements culturels pour vivre l'ambiance du Brésil.
+                    <h3 class="blanc mt-16">Événements Culturels</h3>
+                    <p class="blanc">Participez à nos événements culturels pour vivre l'ambiance du Brésil.
                         Musique live,
                         danse,
                         et dégustation de plats authentiques pour une expérience immersive.</p>
                 </div>
             </div>
+             -->
         </div>
+
 
 
 
@@ -142,12 +163,14 @@
 
     <!-- SECTION 4 -->
     <section class="background-jaune pt-64 pb-64">
-        <h2 class="text-center vert">Témoignages</h2>
+        <h2 id="Témoignages" class="text-center vert">Témoignages</h2>
 
-        <div class="container-1000 flex align-center space-between gap-16">
-            <!-- Div carte -->
+        <div id="temoignage-container" class="container-1000 flex space-between gap-16">
+
+            <!--  
+
             <div class="carte-vert mt-16 w-30">
-                <!-- div icon  -->
+                
                 <div class="flex align-center gap-16">
                     <i class="ph ph-user-circle blanc user-bleu icon-size-50"></i>
                     <div class="pomme">
@@ -162,7 +185,7 @@
 
             </div>
             <div class="carte-vert mt-16 w-30">
-                <!-- div icon  -->
+               
                 <div class="flex align-center gap-16">
                     <i class="ph ph-user-circle blanc user-bleu icon-size-50"></i>
                     <div class="pomme">
@@ -177,7 +200,7 @@
 
             </div>
             <div class="carte-vert mt-16 w-30">
-                <!-- div icon  -->
+                
                 <div class="flex align-center gap-16">
                     <i class="ph ph-user-circle blanc user-bleu icon-size-50"></i>
                     <div class="pomme">
@@ -191,6 +214,13 @@
                     authentiques, et le poisson est toujours frais. Une expérience culinaire à ne pas manquer !</p>
 
             </div>
+            -->
+
+
+
+
+
+
         </div>
 
     </section>
@@ -198,8 +228,13 @@
 
     <!-- SECTION 5 -->
     <section class="background-bleu pt-64 pb-64">
-        <h2 class="text-center blanc">Chez <span class="jaune">Tudo de Bom</span>, on vous promet : </h2>
-        <div class="container-1000 flex align-center space-between mt-32 blanc">
+        <h2 id="NosPromesses" class="text-center blanc">Chez <span class="jaune">Tudo de Bom</span>, on vous promet :
+        </h2>
+
+        <div id="promesse-container" class="container-1000 flex align-center space-between mt-32 blanc">
+
+            <!--  
+
             <div class="w-25 flex column space-around align-center gap-16">
                 <i class="ph-fill ph-bowl-steam icon-size-100"></i>
                 <p class="w-100 text-center">Une cuisine brésilienne authentique et savoureuse</p>
@@ -212,12 +247,13 @@
                 <i class="ph-fill ph-bowl-steam icon-size-100"></i>
                 <p class="w-100 text-center">Une cuisine brésilienne authentique et savoureuse</p>
             </div>
+            -->
         </div>
 
 
     </section>
     <section class="background-vert pt-32 pb-32">
-        <h2 class="text-center pomme">Suivez nous !</h2>
+        <h2 id="NosRésaux" class="text-center pomme">Suivez nous !</h2>
         <div class="flex space-around mt-16">
             <a href=""><i class="ph-fill ph-facebook-logo icon-size-50 btn-resaux"></i></a>
             <a href=""><i class="ph-fill ph-instagram-logo icon-size-50 btn-resaux"></i></a>
@@ -229,17 +265,33 @@
 
 <footer class="background-pomme pt-64 pb-64">
 
-    <div class="container-1000 flex align-center space-around">
-        <div>
-            <h3 class="vert">Alors Convaincu ?</h3>
-            <p class="jaune w-40">Nous vous attendons au plus vite dans notre restaurant pour tenter l'expérience <span
-                    class="vert rammetto-one">Tudo de Bom</span> ?</p>
+    <div id="Réservation" class="container-1000 flex space-around">
+
+        
+            <div class="w-50" >
+                <div>
+                    <h3 class="vert">Alors Convaincu ?</h3>
+                    <p class="jaune w-40">Nous vous attendons au plus vite dans notre restaurant pour tenter
+                        l'expérience
+                        <span class="vert rammetto-one">Tudo de Bom</span> ?
+                    </p>
+                </div>
+                <a href=""><img class="w-20" src="asset/logo-bresilien-1.png" alt=""></a>
+
+            </div>
+            <div class="w-30">
+                <form class="flex column w-30" action="">
+                    <input type="text" class="input mb-32" placeholder="Nom">
+                    <input type="tel" class="input mb-32" placeholder="Téléphone">
+                    <input type="text" class="input mb-32" placeholder="Pour combien de personne ?">
+                </form>
+                <a class="w-60 bouton-vert flex align-center justify-center mb-64" href="">Validez la réservation</a>
+            
         </div>
-        <img class="w-20" src="asset/logo-bresilien-1.png" alt="">
-
-
 
     </div>
+
+  
 
 
 

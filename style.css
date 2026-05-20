@@ -281,7 +281,7 @@ p{
 }
 
 .background-noir{
-    background-color: black;
+    background-color: #15334f;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -292,6 +292,14 @@ p{
     background-repeat: no-repeat;
     padding: 10px;
     border-radius: 10px;
+}
+
+.carte-bleu{
+    background-color: #0886fd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .carte-vert-foncé{
@@ -331,16 +339,16 @@ p{
             BOUTON
 ---------------------------------*/
 
-.bouton-vert{
-    background-color: #125D3F;
+.bouton-bleu{
+    background-color: #0886fd;
     border-radius: 200px;
     padding: 10px 20px;
-    color: #01c047;
+    color: white;
 }
 
-.bouton-vert:hover{
-    background-color: #0886fd;
-    color: white;
+.bouton-bleu:hover{
+    background-color: #fffd83;
+    color: #125D3F;
 }
 
 .btn-header{
@@ -431,5 +439,15 @@ p{
 }
 
 
-
+.input{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #125D3F;
+    background-color: #fffd83;
+    border: none;
+    height: 40px;
+    width: 328px;
+    padding: 10px;
+    outline: none;
+}
 
