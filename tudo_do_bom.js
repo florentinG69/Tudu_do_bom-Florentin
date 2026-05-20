@@ -98,7 +98,7 @@ function afficherTemoignage(tableauTemoignages) {
                     <div class="pomme">
                         <h3>${temoignage.prenom}</h3>
                         <p>${temoignage.typeExperience}</p>
-                        <p>Note : 5</p>
+                        <p> ${noteEtoiles(temoignage.note)}</p>
                     </div>
 
                 </div>
@@ -177,22 +177,27 @@ function afficherHiro(tableauHiro) {
 //parametre : la notes
 //retour : la etoiles
 
-function noteEtoiles(notes) {
-        if (temoignage.note === 0) {
-            temoignage.note = "☆☆☆☆☆"
-        }else if (temoignage.note === 1 ){
-            temoignage.note = "★☆☆☆☆"
-        }else if (temoignage.note === 2){
-            temoignage.note = "★★☆☆☆"
-        }else if (temoignage.note === 3){
-            temoignage.note = "★★★☆☆"
-        }else if (temoignage.note === 4){
-            temoignage.note = "★★★★☆"
-        }else if (temoignage.note === 4){
-            temoignage.note = "★★★★☆"
+function noteEtoiles(note) {
+
+    let etoileResultat=""
+
+        if (note === 0) {
+            etoileResultat = "☆☆☆☆☆"
+        }else if (note === 1 ){
+            etoileResultat = "★☆☆☆☆"
+        }else if (note === 2){
+            etoileResultat = "★★☆☆☆"
+        }else if (note === 3){
+            etoileResultat = "★★★☆☆"
+        }else if (note === 4){
+            etoileResultat = "★★★★☆"
+        }else if (note === 5){
+            etoileResultat = "★★★★★"
         }
 
-        return `La note est de ${temoignage.note}`
+   
+
+        return etoileResultat
 
   
 }

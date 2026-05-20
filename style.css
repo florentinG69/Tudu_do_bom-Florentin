@@ -451,3 +451,10 @@ p{
     outline: none;
 }
 
+.crop-2{
+    height: 192px;
+    width: 288px;
+    object-fit: cover;
+    object-position: 0 -40px;
+    
+}
