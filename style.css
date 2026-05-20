@@ -11,6 +11,9 @@
     box-sizing: border-box;
 }
 
+header{
+    padding: 5px 100px;
+}
 
 a{
     text-decoration: none;
@@ -268,6 +271,14 @@ p{
 }
 
 
+.background-logo{
+    background-color: #00ca07;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
 .background-jaune{
     background-color: #fffd83;
     background-size: cover;
@@ -281,7 +292,7 @@ p{
 }
 
 .background-noir{
-    background-color: #15334f;
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -352,10 +363,10 @@ p{
 }
 
 .btn-header{
-    color: #125D3F;
+    color: white;
 }
 .btn-header:hover{
-    color: #0886fd;
+    color:#fffd83;
 }
 
 .btn-resaux{
@@ -457,4 +468,9 @@ p{
     object-fit: cover;
     object-position: 0 -40px;
     
+}
+
+.header{
+    position: fixed;
+    top: 0;
 }

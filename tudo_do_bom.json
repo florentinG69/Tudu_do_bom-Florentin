@@ -45,9 +45,9 @@
       "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/restaurant-bresilien/caipirinha.webp"
     },
     {
-      "nom": "Caipirinha",
-      "desc": "Rafraîchissez-vous avec notre caipirinha, un cocktail brésilien classique à base de cachaça, de sucre et de citron vert. L'accompagnement parfait pour vos plats.",
-      "image": "asset/pexels-bertellifotografia-34520971.jpg"
+      "nom": "Brigadeiro",
+      "desc": "Parmi les spécialités brésiliennes, on trouve de nombreuses pâtisseries délicieuses, dont les brigadeiros. Cette version locale du praliné à la truffe a été créée dans les années 1940.",
+      "image": "/asset/pexels-fernanda-neitzel-2155821056-34263268.jpg"
     }
   ],
   "services": [
