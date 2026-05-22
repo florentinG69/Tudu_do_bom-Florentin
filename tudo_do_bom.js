@@ -33,13 +33,13 @@ function afficherPlats(tableauPlats) {
         let carteDesPlats = `
         
     
-            <div class="w-30">
-                <img class="border-img mt-32 w-100"
+            <div class="carte-repas mt-32 w-30">
+                <img class="border-repas w-100"
                     src="${plat.image}"
                     alt="">
                 <div>
-                    <h3 class="bleu mt-32">${plat.nom}</h3>
-                    <p class="vert">${plat.desc}</p>
+                    <h3 class="jaune mt-8">${plat.nom}</h3>
+                    <p class="blanc">${plat.desc}</p>
                 </div>
             </div>
 
@@ -65,10 +65,10 @@ function afficherService(tableauServices) {
         let carteDesServices = `
 
         <div class="w-30">
-                <img class=" w-100 border-img mt-16" src=${service.image} alt="">
+                <img class=" w-100 border-img-service mt-16" src=${service.image} alt="">
                 <div>
-                    <h3 class="bleu mt-16">${service.titre}</h3>
-                    <p class="vert">${service.desc}</p>
+                    <h3 class="jaune mt-16">${service.titre}</h3>
+                    <p class="vert-fonce">${service.desc}</p>
                 </div>
             </div>
         
@@ -95,16 +95,16 @@ function afficherTemoignage(tableauTemoignages) {
 
                 <div class="carte-temoignage mt-32 w-30">
                 
-                <div class="flex align-center gap-32">
+                <div class="flex align-center gap-16">
                     <i class="ph ph-user-circle blanc user-bleu icon-size-50"></i>
-                    <div class="bleu">
+                    <div class="vert-fonce">
                         <h3>${temoignage.prenom}</h3>
                         <p>${temoignage.typeExperience}</p>
                         <p> ${noteEtoiles(temoignage.note)}</p>
                     </div>
 
                 </div>
-                <p class="blanc mt-16">${temoignage.commentaire}</p>
+                <p class="jaune mt-16">${temoignage.commentaire}</p>
   
         
         `
@@ -128,9 +128,11 @@ function afficherPromesse(tableauPromesses) {
 
         let carteDesPromesses = `
 
-        <div class="w-25 flex column space-around align-center gap-16">
-                <p class="icon-size-100">${promesse.icone}</p>
-                <p class="w-100 text-center">${promesse.phrase}</p>
+        <div class="w-30 flex column align-center gap-16">
+                <p class="icon-size-150 blanc">${promesse.icone}</p>
+                
+                <p class="text-center jaune">${promesse.phrase}</p>
+                
             </div>
 
   
@@ -145,7 +147,7 @@ function afficherPromesse(tableauPromesses) {
 }
 
 
-//FONCTION HiRO
+//FONCTION HERO
 
 //role: afficher le h1, h2, p 
 //paramtre : tableau hiro
@@ -157,9 +159,9 @@ function afficherHiro(tableauHiro) {
 
     let carteDesTextes = `
 
-       <h1 class="blanc pt-64">${tableauHiro.nomCommercial}</h1>
+       <h1 class="jaune text-shadow pt-64">${tableauHiro.nomCommercial}</h1>
                 <h2 class="blanc">${tableauHiro.sousNomCommercial}</h2>
-                <p class="blanc mb-32">${tableauHiro.texteAccroche}</p>
+                <p class="jaune mb-32 background-vert-fonce">${tableauHiro.texteAccroche}</p>
                 <a class="bouton-bleu mb-32" href="">${tableauHiro.texteBouton}</a>
 
 

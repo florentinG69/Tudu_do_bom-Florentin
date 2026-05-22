@@ -75,7 +75,11 @@ p {
 
 
 .vert{
-    color: #00ca07;
+    color: #00a806;
+}
+
+.vert-fonce{
+    color: #125D3F;
 }
 
 .bleu {
@@ -253,8 +257,28 @@ p {
             BACKGROUND
  ---------------------------------*/
 
-.background-vert{
+.background-vert-fonce{
     background-color: #125D3F;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-vert{
+    background-color: #00a806;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+
+.background-jaune{
+    background-color: #fffd83;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-bleu{
+    background-color: #0886fd;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -270,7 +294,7 @@ p {
 
 
 .background-logo {
-    background-color: #00ca07;
+    background-color: #00a806;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50% 20% / 10% 40%;
@@ -279,21 +303,37 @@ p {
 
 
 .user-bleu {
-    background-color: #0886fd;
-    box-shadow: 5px 2.5px #00ca07;
+    background-color: #0886fd;;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50% 20% / 10% 40%;
     padding: 5px;
 }
 
-.carte-temoignage{
-    background-color: #fffd83;
+.carte-vert{
+    background-color: #00a806;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 30px;
+}
 
+.carte-repas{
+    background-color: #398265;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+
+.carte-temoignage{
+    background-color:#00a806;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 30px;
+    border-radius: 50% 20% / 10% 40%;
 }
 
 
@@ -319,11 +359,11 @@ p {
 
 .bouton-bleu:hover {
     background-color: #fffd83;
-    color: #00ca07;
+    color: #00a806;
 }
 
 .bouton-vert{
-    background-color: #00ca07;
+    background-color: #00a806;
     border-radius: 200px;
     padding: 10px 20px;
     color: #fffd83;
@@ -343,11 +383,11 @@ p {
 }
 
 .btn-resaux {
-    color: #fffd83;
+    color: #125D3F;
 }
 
 .btn-resaux:hover {
-    color: white;
+    color: #00a806;
 }
 
 
@@ -421,7 +461,16 @@ p {
  ---------------------------------*/
 .border-img {
     border-radius: 50% 20% / 10% 40%;
-    box-shadow: 10px 5px #00ca07;
+    box-shadow: 10px 5px #00a806;
+}
+
+.border-img-service {
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: 10px 5px #125D3F;
+}
+
+.border-repas{
+    border-radius: 50% 20% / 10% 40%;
 }
 
 .text-shadow{
@@ -429,8 +478,8 @@ p {
     
 }
 
-.icon-size-100 {
-    font-size: 100px;
+.icon-size-150 {
+    font-size: 150px;
 }
 
 
