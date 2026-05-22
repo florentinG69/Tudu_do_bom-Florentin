@@ -297,6 +297,13 @@ p{
     background-repeat: no-repeat;
 }
 
+.background-repas{
+    background-color: #125D3F;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 200px 0 200px;
+}
+
 .carte-vert{
     background-color: #125D3F;
     background-size: cover;

@@ -20,6 +20,8 @@ fetch("tudo_do_bom.json")
 
 //FONCTION REPAS
 
+//Je crée une fonction qui va piocher les infos dans le json pour la section repas
+
 //role: afficher les plats dans la section repas
 //paramtre : tableau des plats
 //retour : rien  car elle affiche
