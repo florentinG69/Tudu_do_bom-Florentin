@@ -74,11 +74,11 @@ p {
 ---------------------------------*/
 
 
-.vert{
+.vert {
     color: #00a806;
 }
 
-.vert-fonce{
+.vert-fonce {
     color: #125D3F;
 }
 
@@ -88,7 +88,7 @@ p {
 
 
 .jaune {
-    color:  #fffd83;
+    color: #fffd83;
 }
 
 .blanc {
@@ -120,6 +120,10 @@ p {
 
 .align-center {
     align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
 }
 
 .justify-center {
@@ -257,13 +261,13 @@ p {
             BACKGROUND
  ---------------------------------*/
 
-.background-vert-fonce{
+.background-vert-fonce {
     background-color: #125D3F;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.background-vert{
+.background-vert {
     background-color: #00a806;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,13 +275,13 @@ p {
 }
 
 
-.background-jaune{
+.background-jaune {
     background-color: #fffd83;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.background-bleu{
+.background-bleu {
     background-color: #0886fd;
     background-size: cover;
     background-repeat: no-repeat;
@@ -293,6 +297,7 @@ p {
 }
 
 
+
 .background-logo {
     background-color: #00a806;
     background-size: cover;
@@ -303,14 +308,15 @@ p {
 
 
 .user-bleu {
-    background-color: #0886fd;;
+    background-color: #0886fd;
+    ;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50% 20% / 10% 40%;
     padding: 5px;
 }
 
-.carte-vert{
+.carte-vert {
     background-color: #00a806;
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,18 +324,18 @@ p {
     border-radius: 30px;
 }
 
-.carte-repas{
+.carte-repas {
     background-color: #398265;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 15px;
     border-radius: 20px;
-    
+
 }
 
 
-.carte-temoignage{
-    background-color:#00a806;
+.carte-temoignage {
+    background-color: #00a806;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 20px 20px 30px;
@@ -362,14 +368,14 @@ p {
     color: #00a806;
 }
 
-.bouton-vert{
+.bouton-vert {
     background-color: #00a806;
     border-radius: 200px;
     padding: 10px 20px;
     color: #fffd83;
 }
 
-.bouton-vert:hover{
+.bouton-vert:hover {
     background-color: #0886fd;
     color: white;
 }
@@ -399,16 +405,16 @@ p {
     width: 100%;
 }
 
-.w-80{
+.w-80 {
     width: 80%;
 }
 
-.w-70{
+.w-70 {
     width: 70%;
 }
 
 
-.w-60{
+.w-60 {
     width: 60%;
 }
 
@@ -469,13 +475,13 @@ p {
     box-shadow: 10px 5px #125D3F;
 }
 
-.border-repas{
+.border-repas {
     border-radius: 50% 20% / 10% 40%;
 }
 
-.text-shadow{
+.text-shadow {
     text-shadow: 10px 5px #125D3F;
-    
+
 }
 
 .icon-size-150 {
@@ -513,3 +519,27 @@ p {
     top: 0;
 }
 
+.border-bottom-bleu {
+    border-bottom: solid;
+    border-color: #0886fd;
+    border-width: 10px;
+}
+
+.border-bottom-jaune {
+    border-bottom: solid;
+    border-color: #fffd83;
+    border-width: 10px;
+}
+
+.border-bottom-vert {
+    border-bottom: solid;
+    border-color: #00a806;
+    border-width: 10px;
+}
+
+.border-bottom-vert-fonce {
+    border-bottom: solid;
+    border-color: #125D3F;
+    border-width: 10px;
+
+}
