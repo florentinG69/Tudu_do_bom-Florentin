@@ -33,13 +33,13 @@ function afficherPlats(tableauPlats) {
         let carteDesPlats = `
         
     
-            <div class="carte-vert-foncé w-30">
-                <img class=" border-img w-100"
+            <div class="w-30">
+                <img class="border-img mt-32 w-100"
                     src="${plat.image}"
                     alt="">
                 <div>
-                    <h3 class="pomme">${plat.nom}</h3>
-                    <p class="blanc">${plat.desc}</p>
+                    <h3 class="bleu mt-32">${plat.nom}</h3>
+                    <p class="vert">${plat.desc}</p>
                 </div>
             </div>
 
@@ -64,11 +64,11 @@ function afficherService(tableauServices) {
 
         let carteDesServices = `
 
-        <div class="carte-bleu w-30">
-                <img class=" w-100 border-img" src=${service.image} alt="">
+        <div class="w-30">
+                <img class=" w-100 border-img mt-16" src=${service.image} alt="">
                 <div>
-                    <h3 class="blanc mt-16">${service.titre}</h3>
-                    <p class="blanc ">${service.desc}</p>
+                    <h3 class="bleu mt-16">${service.titre}</h3>
+                    <p class="vert">${service.desc}</p>
                 </div>
             </div>
         
@@ -93,11 +93,11 @@ function afficherTemoignage(tableauTemoignages) {
 
         let carteDesTemoignages = `
 
-                <div class="carte-vert mt-16 w-30">
+                <div class="carte-temoignage mt-32 w-30">
                 
-                <div class="flex align-center gap-16">
+                <div class="flex align-center gap-32">
                     <i class="ph ph-user-circle blanc user-bleu icon-size-50"></i>
-                    <div class="pomme">
+                    <div class="bleu">
                         <h3>${temoignage.prenom}</h3>
                         <p>${temoignage.typeExperience}</p>
                         <p> ${noteEtoiles(temoignage.note)}</p>
@@ -159,7 +159,7 @@ function afficherHiro(tableauHiro) {
 
        <h1 class="blanc pt-64">${tableauHiro.nomCommercial}</h1>
                 <h2 class="blanc">${tableauHiro.sousNomCommercial}</h2>
-                <p class="jaune mb-32">${tableauHiro.texteAccroche}</p>
+                <p class="blanc mb-32">${tableauHiro.texteAccroche}</p>
                 <a class="bouton-bleu mb-32" href="">${tableauHiro.texteBouton}</a>
 
 
