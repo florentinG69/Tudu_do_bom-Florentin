@@ -161,7 +161,7 @@ function afficherHiro(tableauHiro) {
 
        <h1 class="jaune text-shadow pt-128">${tableauHiro.nomCommercial}</h1>
                 <h2 class="blanc">${tableauHiro.sousNomCommercial}</h2>
-                <p class="jaune mb-32 background-vert-fonce">${tableauHiro.texteAccroche}</p>
+                <h3 class="h3-hiro jaune">${tableauHiro.texteAccroche}</p>
                 <a class="bouton-bleu mb-32" href="">${tableauHiro.texteBouton}</a>
 
 

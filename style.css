@@ -18,18 +18,26 @@ a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
+    font-size: 16px;
 
 }
 
 h1 {
     font-family: "Rammetto One", sans-serif;
-    font-size: 80px;
+    font-size: 128px;
 
 }
 
 h2 {
     font-family: "Rammetto One", sans-serif;
-    font-size: 40px;
+    font-size: 64px;
+}
+
+
+.h3-hiro{
+    font-family: "Rammetto One", sans-serif;
+    font-size: 32px;
+    text-shadow: 1px 1px 2px black;
 }
 
 h3 {
@@ -39,7 +47,7 @@ h3 {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 800;
 }
 
@@ -248,8 +256,8 @@ p {
             CONTAINER
 ---------------------------------*/
 
-.container-1000 {
-    max-width: 1000px;
+.container-1400 {
+    max-width: 1400px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -265,6 +273,12 @@ p {
     background-color: #125D3F;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.surlignement-vert{
+    background-color: #125D3F;
+
+
 }
 
 .background-vert {
@@ -398,7 +412,7 @@ p {
 
 
 /* ------------------------------
-            LARGEURS
+            TAILLE
  ---------------------------------*/
 
 .w-100 {
@@ -515,7 +529,7 @@ p {
 }
 
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
