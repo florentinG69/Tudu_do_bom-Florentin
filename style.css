@@ -256,8 +256,8 @@ p {
             CONTAINER
 ---------------------------------*/
 
-.container-1400 {
-    max-width: 1400px;
+.container-1200 {
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -316,7 +316,7 @@ p {
     background-color: #00a806;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 20%
 }
 
 
